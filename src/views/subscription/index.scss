@@ -1,0 +1,14 @@
+.subscription {
+  &-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  &-view {
+    .sr-subscription-panel {
+      margin-bottom: 20px;
+    }
+  }
+}
